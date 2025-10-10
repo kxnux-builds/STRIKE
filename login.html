@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - STRIKE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <div class="hero-bg-animation"></div>
+
+    <div class="login-container">
+        <div class="login-card">
+            <a href="index.html" class="back-link">&larr; Back to Home</a>
+            <div class="logo-container">
+                <h1 class="logo">S T R I K E ⚡</h1>
+                <p>Access the Grid</p>
+            </div>
+
+            <form class="login-form" action="index.html" method="GET">
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your Email" autofocus required
+                        autocomplete="email">
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your Password" autofocus
+                        autocomplete="current-password" minlength="6" maxlength="25" required>
+                </div>
+                <button type="submit" class="login-button">Login</button>
+            </form>
+
+            <div class="form-footer">
+                <a href="https://www.google.com/" target="_blank" class="forgot-password">Forgot Password?</a>
+                <p>No account? <a href="https://www.google.com/" target="_blank" class="register-link">Register Now</a></p>
+            </div>
+
+            <div class="social-divider">
+                <span>OR</span>
+            </div>
+
+            <div class="social-login">
+                <a href="https://www.google.com/" class="social-btn google" target="_blank"><i
+                        class="fab fa-google"></i> Continue with Google</a>
+                <a href="https://github.com/login" class="social-btn github" target="_blank"><i
+                        class="fab fa-github"></i> Continue with GitHub</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
