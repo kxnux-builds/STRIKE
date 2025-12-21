@@ -5,21 +5,6 @@ STRIKE showcases advanced layout engineering, responsive design, modern UI aesth
 
 ---
 
-## 🗂️ Project Structure
-
-```text
-strike-frontend/
-│
-├── index.html
-├── login.html
-├── style.css
-├── login.css
-├── mentor1.png
-├── mentor2.png
-└── README.md
-
----
-
 ## 🧠 About the Project
 
 **STRIKE** is a futuristic educational platform landing experience designed to inspire, engage, and convert aspiring developers.  
@@ -97,4 +82,18 @@ This constraint highlights **deep CSS mastery** and frontend fundamentals.
   - Google Fonts (Orbitron, Poppins)
   - Font Awesome Icons
 
+---
+
+## 🗂️ Project Structure
+
+```text
+strike-frontend/
+│
+├── README.md
+├── index.html
+├── login.html
+├── login.css
+├── mentor1.png
+├── mentor2.png
+└── style.css
 
