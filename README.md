@@ -2,7 +2,7 @@
 
 A high-fidelity, hackathon-grade frontend landing experience built with pure HTML5 + CSS3 — no JavaScript required. STRIKE demonstrates advanced layout engineering, modern UI aesthetics, responsive design, and accessibility using only semantic HTML and expressive CSS.
 
-Live demo : https://kxnux-builds.github.io/Portfolio/
+Live demo : https://kxnux-builds.github.io/STRIKE/
 
 ---
 
